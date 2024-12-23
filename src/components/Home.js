@@ -1,9 +1,14 @@
 import React from "react";
-import { name, city } from "../data/data.js";
+import { username, city } from "../data/data.js";
 
-function Home() {
-  // update the JSX being returned!
-  return <div>Home</div>;
+
+console.log(username, city);
+export default function Home() {
+  return (
+    <div id="home">
+      <h1 style={{ color: "firebrick" }}>
+        {username} is a Web Developer from {city}
+      </h1>
+    </div>
+  );
 }
-
-export default Home;

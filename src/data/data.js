@@ -1,7 +1,6 @@
-// use these variables in your JSX (update them with your own name and city!)
-const name = "Liza";
-const city = "New York";
+export const username = "Garrett";
+export const city = "Portland";
+export const image = "https://i.imgur.com/mV8PQxj.gif";
 
-const image = "https://i.imgur.com/mV8PQxj.gif";
-
-export { name, city, image };
+// export all three variables as named exports
+console.log(username, city, image)
